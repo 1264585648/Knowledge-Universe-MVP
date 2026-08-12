@@ -54,4 +54,16 @@ Vite `base` 已配置为：
 base: '/Knowledge-Universe-MVP/'
 ```
 
-推送到 `main` 后，在 Repository → Settings → Pages 中选择 **GitHub Actions** 作为 Source，即可由工作流发布。
+### 首次启用
+
+这个仓库第一次使用 GitHub Pages 时，需要在 GitHub 网页执行一次：
+
+**Repository → Settings → Pages → Source → GitHub Actions**
+
+这是 GitHub 对 Pages Site 的仓库级设置；当前 Actions 集成 token 可以构建和部署，但不能代替仓库所有者创建 Pages Site。
+
+启用后重新运行 `Deploy to GitHub Pages` 工作流，或向 `main` 再推送一次提交即可发布。
+
+预期站点地址：
+
+`https://1264585648.github.io/Knowledge-Universe-MVP/`
